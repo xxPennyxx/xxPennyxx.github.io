@@ -1,0 +1,138 @@
+.top-container{
+    background-color: #CBF1F5;
+
+    /*background-color: #F675A8;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;*/
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    margin:0px;
+    /*border:solid 10px;*/
+}
+body{
+    margin:0 0 0 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    /*font-size:200% or 2em will make the h1 much huger, adding it because h1 inherits props from the body*/
+    font-size:1.25em;
+}
+h1{
+    margin:12.5px auto 0 auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 5.625rem;
+    color: #812d58;
+}
+h2{
+    font-size:2.50rem;
+    margin:10px auto 0 auto;
+    color:#00ADB5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* 100% is equivalent to 16px when text size is middle (default), so if we want 90px then we go for 90/16*100=562.5%*/
+/*100%=16px=1em*/
+/*% and em are dynamic whereas px is static*/
+.middle-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.bottom-container{
+    background-color: #95f5f5;
+    line-height: 3;
+   
+}
+.pro{
+    text-decoration: underline;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    position: absolute;
+    right:450px;
+    top:50px;
+}
+.amogus{
+    font-family:  'Amatic SC', cursive;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+.round{
+    border-radius: 100%;
+}
+h3{
+    color:#00ADB5;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color:#00ADB5;
+    margin:0 20px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto; /*this makes the div centred in the webpage while keeping your width settings the way you want it*/
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.code-img{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+.Writing{
+    width:25% ;
+    float:right;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+.design{
+    width:25% ;
+    float:left;
+    margin-right: 30px;
+}
+.rick{
+    width:25% ;
+    float:right;
+    margin-left: 30px;
+}
+/*.rickroll{
+    clear:right;
+}*/
+p{
+    color:#40514E;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-style: dotted none none;
+    width:200px;
+    height:30px;
+    border-color: grey;
+    border-width: 10px;
+}
+
+.btn {
+    background: #45e7ed;
+    background-image: -webkit-linear-gradient(top, #45e7ed, #4f6775);
+    background-image: -moz-linear-gradient(top, #45e7ed, #4f6775);
+    background-image: -ms-linear-gradient(top, #45e7ed, #4f6775);
+    background-image: -o-linear-gradient(top, #45e7ed, #4f6775);
+    background-image: linear-gradient(to bottom, #45e7ed, #4f6775);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Arial;
+    color: white;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
