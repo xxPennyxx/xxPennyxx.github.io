@@ -14,9 +14,10 @@
 body{
     margin:0 0 0 0;
     text-align: center;
-    font-family: Helvetica, sans-serif;
     /*font-size:200% or 2em will make the h1 much huger, adding it because h1 inherits props from the body*/
     font-size:1.25em;
+    color:#40514E;
+
 }
 h1{
     margin:12.5px auto 0 auto;
@@ -29,6 +30,8 @@ h2{
     margin:10px auto 0 auto;
     color:#00ADB5;
     font-family: 'Montserrat', sans-serif;
+    padding-top:10px;
+    padding-bottom: 30px;
 
 }
 /* 100% is equivalent to 16px when text size is middle (default), so if we want 90px then we go for 90/16*100=562.5%*/
@@ -40,8 +43,9 @@ h2{
 
 }
 .bottom-container{
-    background-color: #95f5f5;
+    background-color: #bbf6f6;
     line-height: 3;
+    padding:50px 0 20px;
    
 }
 .pro{
@@ -49,10 +53,11 @@ h2{
 }
 .bottom-cloud{
     position: absolute;
+    bottom:200px;
 }
 .top-cloud{
     position: absolute;
-    right:450px;
+    right:400px;
     top:50px;
 }
 .amogus{
@@ -72,7 +77,11 @@ a{
     color:#00ADB5;
     margin:0 20px 0 20px;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     
+}
+a:hover{
+    color:#812d58;
 }
 
 .skill-row{
@@ -107,32 +116,59 @@ a{
     clear:right;
 }*/
 p{
-    color:#40514E;
     font-family: 'Montserrat', sans-serif;
 }
 hr{
+    border:dotted grey;
+    border-bottom: none;
     border-style: dotted none none;
     width:200px;
     height:30px;
     border-color: grey;
     border-width: 10px;
+    margin:50px auto 50px auto;
 }
 
 .btn {
-    background: #45e7ed;
-    background-image: -webkit-linear-gradient(top, #45e7ed, #4f6775);
-    background-image: -moz-linear-gradient(top, #45e7ed, #4f6775);
-    background-image: -ms-linear-gradient(top, #45e7ed, #4f6775);
-    background-image: -o-linear-gradient(top, #45e7ed, #4f6775);
-    background-image: linear-gradient(to bottom, #45e7ed, #4f6775);
-    -webkit-border-radius: 20;
-    -moz-border-radius: 20;
-    border-radius: 20px;
-    font-family: Arial;
-    color: white;
-    font-size: 25px;
-    padding: 10px 25px 10px 25px;
-    border: solid #1f628d 2px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 22px 10px 22px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+
+  }
+  .intro{
+    width:30%;
+    margin:auto;/*remember to use this so that it's centred*/
+  }
+  .contact{
+    width:40%;
+    margin:auto;
+    margin-bottom: 50px;
+  }
+  .copyright{
+    font-size: 70%;
+    color:#40514E;
+    padding:20px 0;
   }
